@@ -30,3 +30,5 @@ data = {
 df=pd.DataFrame(data,index=["day1","day2","day3"])
 print(df.loc["day1"])   
 
+df=pd.read_csv("python\data.csv")
+print(df.to_string())

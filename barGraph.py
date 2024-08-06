@@ -11,8 +11,8 @@ x = np.arange(len(players))
 width = 0.2
 colors = ['red', 'green', 'blue']
 print(x)
-plt.bar(x - width, runs1, width=width, color=colors[0], label='Match 1')
-plt.bar(x, runs2, width=width, color=colors[1], label='Match 2')
+plt.bar(x - width, runs1, width=width, color=colors[0], label='Match 1',)
+plt.bar(x, runs2, width=width, color=colors[1], label='Match 2', )
 plt.bar(x + width, runs3, width=width, color=colors[2], label='Match 3')
 
 plt.xlabel('Players')

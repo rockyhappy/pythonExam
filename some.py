@@ -44,7 +44,7 @@ radioButton1 = Radiobutton(root, text="Option 1", variable=radioButtonValue, val
 radioButton1 = Radiobutton(root, text="Option 2", variable=radioButtonValue, value=2).pack()
 
 #this line is for setting the image in the window
-img = PhotoImage(file="")
+img = PhotoImage(file="").pack()
 
 
 root.mainloop()
